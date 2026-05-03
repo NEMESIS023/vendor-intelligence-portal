@@ -112,15 +112,15 @@ if "page" not in st.session_state:
 b1, b2, b3 = st.columns(3)
 
 with b1:
-    if st.button("🚚 Freight", use_container_width=True):
+    if st.button("🚚 Freight Cost ", use_container_width=True):
         st.session_state.page = "freight"
 
 with b2:
-    if st.button("🚨 Risk", use_container_width=True):
+    if st.button("🚨 Risk Assessment", use_container_width=True):
         st.session_state.page = "risk"
 
 with b3:
-    if st.button("📂 Batch", use_container_width=True):
+    if st.button("📂 Batch Analysis", use_container_width=True):
         st.session_state.page = "batch"
 
 page = st.session_state.page
