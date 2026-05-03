@@ -100,7 +100,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # HEADER (TEXT ONLY)
 # -------------------------------------------------------------
 st.markdown("""
-<h1 style='font-size:36px;'>📊 Vendor Intelligence Portal</h1>""", unsafe_allow_html=True)
+<h1 style='font-size:36px;'>📊 Vendor Intelligence</h1>""", unsafe_allow_html=True)
 st.divider()
 
 # -------------------------------------------------------------
