@@ -57,7 +57,7 @@ if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
 def login():
-    st.title("🔐 Login")
+    st.title("Login")
     u = st.text_input("Username")
     p = st.text_input("Password", type="password")
     if st.button("Login"):
@@ -100,7 +100,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 # HEADER (TEXT ONLY)
 # -------------------------------------------------------------
 st.markdown("""
-<h1 style='font-size:36px;'>📊 Vendor Intelligence</h1>""", unsafe_allow_html=True)
+<h1 style='font-size:36px;'>Vendor Intelligence</h1>""", unsafe_allow_html=True)
 st.divider()
 
 # -------------------------------------------------------------
